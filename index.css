@@ -1,0 +1,47 @@
+#ClockContainer{
+    border: 2px solid black;
+    position: relative;
+    background: url(clock.jpeg) no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 35vw;    /* vw : viewport width, it adjusts the height and width a/c to the screen.*/
+    width: 35vw;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#circle{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position: absolute;
+    background: black;
+    justify-self: center;
+    top: 46.5%;
+}
+#hour{
+    width: 1.8%;
+    height: 23%;
+    top: 27.2%;
+    left: 49.1%;
+    opacity: 0.8;
+}
+#minute{
+    width: 1.4%;
+    height: 27%;
+    top: 23%;
+    left: 49.3%;
+    opacity: 0.9;
+}
+#second{
+    width: 1%;
+    height: 29%;
+    top: 21%;
+    left: 49.5%;
+    opacity: 0.9;
+}

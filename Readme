@@ -1,0 +1,38 @@
+# to make an analog clock.
+--> We will make a hour, minute, & second hand.
+--> At start, lets assume every hand is pointing at 12
+==========================================================================
+--> The hour hand will move 360 deg to complete one day.
+			=> 12 hr = 360
+			=>  1 hr = 360/12
+			=>  1 hr = 30 deg
+--> Meaning , it(hour hand) will move 30deg + some minute deg + seconds hand degree(we'll ignore this) to complete an hour.
+			=> 60 min = 30
+			=>  1 min = 30/60
+			=>  1 min = 0.5 deg
+--------------------------------------------------------------------------
+=> for "h" hours, the hour hand will move 
+			***********************
+			=> h = 30 deg + m/2 deg
+			***********************
+==========================================================================
+--> The minute hand will also move 360 deg to complete a minute.
+			=> 60 min = 360
+			=>  1 min = 360/60
+			=>  1 min = 6 deg
+--------------------------------------------------------------------------
+=> for "m" minutes, the minute hand will move 
+			**************
+			=> m =  6m deg
+			**************
+==========================================================================
+--> The seconds hand will also move 360 deg to complete a second.
+			=> 60 secs = 360
+			=>  1 secs = 360/60
+			=>  1 secs = 6 deg
+--------------------------------------------------------------------------
+=> for "s" seconds, the second hand will move 
+			*************
+			=> s = 6s deg
+			*************
+			
